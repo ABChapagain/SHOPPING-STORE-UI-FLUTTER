@@ -44,12 +44,12 @@ class MyDrawerHeader extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Raman Manste',
+                    'Achyut Chapagain',
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.bold,
                       height: 1.5,
-                      letterSpacing: 1,
+                      letterSpacing: 0.5,
                     ),
                   ),
                 ],

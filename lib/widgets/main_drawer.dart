@@ -63,7 +63,9 @@ class _MainDrawerState extends State<MainDrawer> {
     return Drawer(
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.only(
-            topRight: Radius.circular(20), bottomRight: Radius.circular(0)),
+          topRight: Radius.circular(0),
+          bottomRight: Radius.circular(0),
+        ),
       ),
       child: SingleChildScrollView(
         child: Column(

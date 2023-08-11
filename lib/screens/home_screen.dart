@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:shopping_store_ui/constants/constant.dart';
+import 'package:shopping_store_ui/widgets/home/banners.dart';
+import 'package:shopping_store_ui/widgets/home/category_section.dart';
+import 'package:shopping_store_ui/widgets/home/category_slider.dart';
 import 'package:shopping_store_ui/widgets/main_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -42,8 +47,55 @@ class HomeScreen extends StatelessWidget {
           )
         ],
       ),
-      body: const Center(
-        child: Text('Home Screen'),
+      body: const SingleChildScrollView(
+        child: Column(
+          children: [
+            Banners(),
+            SizedBox(height: 16),
+            CategorySlider(),
+            SizedBox(height: 24),
+            CategorySection(),
+            SizedBox(height: 24),
+            CategorySection(),
+          ],
+        ),
+      ),
+      bottomNavigationBar: Container(
+        color: Colors.white,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 10,
+          ),
+          child: GNav(
+            backgroundColor: Colors.transparent,
+            color: Colors.grey,
+            activeColor: Constant().colors.green5,
+            padding: const EdgeInsets.symmetric(
+              vertical: 12,
+              horizontal: 16,
+            ),
+            gap: 2,
+            tabs: const [
+              GButton(
+                icon: Icons.home_outlined,
+                text: 'Home',
+              ),
+              GButton(
+                icon: Icons.dashboard_outlined,
+                text: 'Category',
+              ),
+              GButton(
+                icon: Icons.favorite_outline,
+                text: 'Favorite',
+              ),
+              GButton(
+                icon: Icons.person_outline,
+                text: 'Profile',
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
