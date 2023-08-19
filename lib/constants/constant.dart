@@ -29,4 +29,16 @@ class _Colors {
   Color get red3 => const Color(0xffF19394);
   Color get red5 => const Color(0xffE84A4D);
   Color get red6 => const Color(0xffD91C1F);
+
+  Color get white => const Color(0xffFFFFFF);
+  Color get gray0 => const Color(0xffFAFAFA);
+  Color get gray1 => const Color(0xffF5F5F5);
+  Color get gray2 => const Color(0xffD6D6D6);
+  Color get gray3 => const Color(0xffADADAD);
+  Color get gray4 => const Color(0xff858585);
+  Color get gray5 => const Color(0xff555555);
+  Color get gray6 => const Color(0xff474747);
+  Color get gray7 => const Color(0xff333333);
+  Color get gray8 => const Color(0xff1F1F1F);
+  Color get black => const Color(0xff000000);
 }

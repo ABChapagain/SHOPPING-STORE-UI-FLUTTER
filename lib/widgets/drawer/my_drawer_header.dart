@@ -22,7 +22,7 @@ class MyDrawerHeader extends StatelessWidget {
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     image: NetworkImage(
-                      'https://scontent.fbir7-1.fna.fbcdn.net/v/t39.30808-1/302144035_815507636467269_4456650102424990127_n.jpg?stp=dst-jpg_p160x160&_nc_cat=100&cb=99be929b-3346023f&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=7au7TE9SJoQAX8M47aS&_nc_ht=scontent.fbir7-1.fna&oh=00_AfAX3JsnPdBC4RtqLkgUnptBEBuSe-mFyH-xcCrgsF0QuQ&oe=64DB7851',
+                      'https://scontent.fbir7-1.fna.fbcdn.net/v/t39.30808-6/302144035_815507636467269_4456650102424990127_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-gcsxEV8VNQAX8DSEMi&_nc_ht=scontent.fbir7-1.fna&oh=00_AfC9cSpMQ0CrKFN2sKPgNw11P6XgB8ZbTUJz3pwnlONeJw&oe=64E68C57',
                     ),
                   ),
                 ),

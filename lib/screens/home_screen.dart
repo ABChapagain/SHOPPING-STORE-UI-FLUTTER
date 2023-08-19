@@ -5,6 +5,8 @@ import 'package:shopping_store_ui/constants/constant.dart';
 import 'package:shopping_store_ui/widgets/home/banners.dart';
 import 'package:shopping_store_ui/widgets/home/category_section.dart';
 import 'package:shopping_store_ui/widgets/home/category_slider.dart';
+import 'package:shopping_store_ui/widgets/home/featured_brands.dart';
+import 'package:shopping_store_ui/widgets/home/promo_banner.dart';
 import 'package:shopping_store_ui/widgets/main_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -57,6 +59,12 @@ class HomeScreen extends StatelessWidget {
             CategorySection(),
             SizedBox(height: 24),
             CategorySection(),
+            SizedBox(height: 24),
+            FeaturedBrands(),
+            SizedBox(height: 24),
+            CategorySection(),
+            SizedBox(height: 24),
+            PromoBanner(),
           ],
         ),
       ),
