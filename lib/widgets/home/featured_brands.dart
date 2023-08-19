@@ -71,7 +71,6 @@ class FeaturedBrands extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(height: 16),
         SizedBox(
           height: 64,
           child: ListView.builder(

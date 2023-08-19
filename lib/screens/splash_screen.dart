@@ -1,6 +1,6 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:shopping_store_ui/screens/home_screen.dart';
+import 'package:shopping_store_ui/screens/auth/auth_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -14,7 +14,7 @@ class SplashScreen extends StatelessWidget {
       ),
       duration: 2500,
       backgroundColor: Colors.black,
-      nextScreen: const HomeScreen(),
+      nextScreen: const AuthScreen(),
       splashTransition: SplashTransition.fadeTransition,
     );
   }
