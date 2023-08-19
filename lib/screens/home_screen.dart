@@ -91,7 +91,7 @@ class HomeScreen extends StatelessWidget {
               ),
               GButton(
                 icon: Icons.dashboard_outlined,
-                text: 'Category',
+                text: 'Explore',
               ),
               GButton(
                 icon: Icons.favorite_outline,

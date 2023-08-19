@@ -73,12 +73,9 @@ class _CategorySliderState extends State<CategorySlider> {
                       height: 40,
                       width: 40,
                     ),
-                    Container(
-                      padding: const EdgeInsets.all(4),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        color: Colors.white,
-                      ),
+                    CircleAvatar(
+                      backgroundColor: Constant().colors.white,
+                      radius: 12,
                       child: Text(
                         categoryList[index]['total'],
                         style: const TextStyle(

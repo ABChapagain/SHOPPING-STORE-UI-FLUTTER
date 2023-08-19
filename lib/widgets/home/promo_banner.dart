@@ -7,7 +7,7 @@ class PromoBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
@@ -20,6 +20,7 @@ class PromoBanner extends StatelessWidget {
               padding: const EdgeInsets.all(20),
               child: Image.asset(
                 'assets/icons/promo/share.png',
+                fit: BoxFit.cover,
               ),
             ),
             const SizedBox(width: 16),
